@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Instagram Photo Feed - Feed</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="container main-container p-0">
+		<header class="headeristagram">
+			<nav class="navbar justify-content-start px-3 py-3">
+				<a class="navbar-brand d-flex flex-row align-items-center gap-2 m-0" href="index.html">
+					<i class="fa-brands fa-instagram fs-3" aria-hidden="true"></i>
+					<h1 class="h3 m-0 fw-semibold">Instagram</h1>
+				</a>
+			</nav>
+			<div class="d-flex flex-column align-items-center justify-content-center px-3 pb-3 text-center">
+				<div class="d-flex flex-row align-items-center justify-content-center gap-2">
+				</div>
+				<div class="d-flex flex-row flex-wrap justify-content-center gap-2 mt-3">
+					<a class="btn btn-outline-dark" href="index.html">Grilla</a>
+					<a class="btn btn-dark" href="feed.html">Vertical</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="p-3">
+			<div class="d-flex flex-column gap-3">
+				<div class="card">
+					<img src="https://picsum.photos/id/1011/900/600" class="card-img-top" alt="Post 1" />
+					<div class="card-body">
+						<h2 class="h6 card-title mb-1">Post 1</h2>
+						<p class="card-text mb-0">Descripción corta del post.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://picsum.photos/id/1015/900/600" class="card-img-top" alt="Post 2" />
+					<div class="card-body">
+						<h2 class="h6 card-title mb-1">Post 2</h2>
+						<p class="card-text mb-0">Otra descripción corta.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://picsum.photos/id/1025/900/600" class="card-img-top" alt="Post 3" />
+					<div class="card-body">
+						<h2 class="h6 card-title mb-1">Post 3</h2>
+						<p class="card-text mb-0">Un feed simple con cards.</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
