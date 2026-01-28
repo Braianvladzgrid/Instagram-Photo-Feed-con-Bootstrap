@@ -1,55 +1,33 @@
 body {
     background-color: #000000;
 }
-.container {
-    max-width: 960px;
-    background-color: aliceblue;
 
-
-}   
 .headeristagram {
     background-color: #e9e8e8;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.headeristagram .navbar-brand,
+.headeristagram .nav-link {
+    color: #000000;
+}
+
+.headeristagram .nav-link:hover,
+.headeristagram .navbar-brand:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-container {
+    max-width: 960px;
+    
+}
+
+.main-container {
+    background-color: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
 }
 h1 {
     color: #000000;
     margin: 0;
-}
-.bookphotos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
-}
-
-.bookphotos li {
-    box-sizing: border-box;
-    background-color: #ffffff;
-}
-
-.bookphotos li img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-@media (max-width: 992px) {
-    .bookphotos ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 576px) {
-    .bookphotos ul {
-        grid-template-columns: 1fr;
-    }
 }
