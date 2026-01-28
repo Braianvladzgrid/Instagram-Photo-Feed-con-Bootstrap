@@ -1,0 +1,43 @@
+body {
+    background-color: #000000;
+}
+.container {
+    max-width: 960px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    margin-top: 1px;
+
+}   
+.bookphotos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.bookphotos li {
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.bookphotos li img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .bookphotos ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .bookphotos ul {
+        grid-template-columns: 1fr;
+    }
+}
