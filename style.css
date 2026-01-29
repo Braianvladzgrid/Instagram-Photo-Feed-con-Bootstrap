@@ -19,7 +19,7 @@ body {
 
 .main-container {
     max-width: 960px;
-    
+
 }
 
 .main-container {
@@ -27,8 +27,13 @@ body {
     border-radius: 8px;
     overflow: hidden;
 }
+
 h1 {
     color: #000000;
     margin: 0;
-    
+
+}
+
+.d-flex.flex-row.align-items-center.justify-content-center.gap-2{
+    background-color:  #ffffff;
 }

@@ -17,12 +17,53 @@
 <body>
 	<div class="container main-container p-0">
 		<header class="headeristagram">
-			<nav class="navbar justify-content-start px-3 py-3">
+			<div class="bloquearriba d-flex align-items-center justify-content-between px-3 py-3">
 				<a class="navbar-brand d-flex flex-row align-items-center gap-2 m-0" href="#">
 					<i class="fa-brands fa-instagram fs-3" aria-hidden="true"></i>
 					<h1 class="h3 m-0 fw-semibold">Instagram</h1>
 				</a>
-			</nav>
+				<div class="d-flex align-items-center gap-2">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+						Crear nuevo post
+					</button>
+					<div class="dropdown">
+						<button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
+							aria-expanded="false" aria-label="Opciones">
+							<i class="fa-solid fa-gear" aria-hidden="true"></i>
+							<span class="visually-hidden">Opciones</span>
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li><a class="dropdown-item" href="#">Perfil</a></li>
+							<li><a class="dropdown-item" href="#">Configuración</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item text-danger" href="#">Salir</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Crear nuevo post</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							...
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar gg</button>
+							<button type="button" class="btn btn-primary">Publicar</button>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="d-flex flex-column align-items-center justify-content-center px-3 pb-3 text-center">
 				<div class="d-flex flex-row align-items-center justify-content-center gap-2">
 				</div>
